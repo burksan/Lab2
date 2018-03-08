@@ -132,7 +132,8 @@ public class HandTest {
 		
 		int[] score = HandHelper(cards);
 		
-		assertEquals(score[0],21);
+		assertEquals(score[0],11);
+		assertEquals(score[1], 21);
 	}
 
 	@Test

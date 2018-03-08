@@ -17,8 +17,11 @@ public class Deck {
 				for (eSuit eSuit : pkgEnum.eSuit.values()){
 					cards.add(new Card(eSuit, eRank));}
 				}
-			Collections.shuffle(cards);
 		}
+		Collections.shuffle(cards);
+	}
+	public Deck() {
+		this(1);
 	}
 
 
